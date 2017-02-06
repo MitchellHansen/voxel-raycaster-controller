@@ -1,0 +1,26 @@
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mrh.voxel_raycaster_controller.Accel">
+    <item
+        android:id="@+id/action_ip"
+        android:orderInCategory="1"
+        android:title="Set IP"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_port"
+        android:orderInCategory="2"
+        android:title="Set Port"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_connect"
+        android:orderInCategory="3"
+        android:title="Connect to sever"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_disconnect"
+        android:orderInCategory="4"
+        android:title="Disconnect from server"
+        app:showAsAction="never" />
+</menu>
